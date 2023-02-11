@@ -1,5 +1,5 @@
 # Sentiment Analysis of Twitter Data
-This project is a Streamlit-based web application that performs sentiment analysis on tweets using the Naive Bayes algorithm. The purpose of this application is to determine the overall sentiment of a particular topic or hashtag on Twitter.
+This project is a Streamlit-based web application that performs sentiment analysis on tweets using the Naive Bayes algorithm. The purpose of this application is to determine the overall sentiment of a particular tweets on Twitter.
 
 ## Data
 The data used in this project is a Twitter dataset that consists of tweets along with their sentiments (positive, negative, or neutral). This dataset was pre-processed to remove any irrelevant information.
