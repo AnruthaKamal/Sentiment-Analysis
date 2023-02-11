@@ -7,11 +7,11 @@ These instructions will get you a copy of the project up and running on your loc
 ## Prerequisites
 You will need to have the following packages installed in order to run this project:
 
--NumPy
--Pandas
--Matplotlib
--Scikit-learn
--NLTK
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- NLTK
 ## Installing
 Use the following command to install all the required packages:
 > pip install -r requirements.txt
