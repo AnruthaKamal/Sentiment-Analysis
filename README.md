@@ -15,6 +15,10 @@ You will need to have the following packages installed in order to run this proj
 - Scikit-learn
 - NLTK
 - Streamlit
+- 
+## Deployment
+> Checkout the Live application: https://anruthakamal-sentiment-analysis-app-msezey.streamlit.app/
+
 ## Installing
 Use the following command to install all the required packages:
 > pip install -r requirements.tx
