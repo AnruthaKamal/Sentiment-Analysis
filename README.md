@@ -1,25 +1,18 @@
-# Sentiment Analysis
-This is a sentiment analysis project that uses Naive Bayes to classify movie reviews as positive or negative. The dataset used for this project consists of 50000 reviews from IMDb, which have been labeled as either positive or negative. The Naive Bayes algorithm has been trained on this data and is capable of accurately classifying new movie reviews based on their sentiment.
+# Sentiment Analysis of Twitter Data
+This project is a Streamlit-based web application that performs sentiment analysis on tweets using the Naive Bayes algorithm. The purpose of this application is to determine the overall sentiment of a particular topic or hashtag on Twitter.
 
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Data
+The data used in this project is a Twitter dataset that consists of tweets along with their sentiments (positive, negative, or neutral). This dataset was pre-processed to remove any irrelevant information.
 
-## Prerequisites
-You will need to have the following packages installed in order to run this project:
+## Methodology
+The Naive Bayes algorithm was used for sentiment analysis. This algorithm is a probabilistic algorithm that makes classifications based on Bayes' theorem. The algorithm was trained on the Twitter dataset, and the model was then used to predict the sentiment of a given tweet.
 
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- NLTK
-## Installing
-Use the following command to install all the required packages:
-> pip install -r requirements.txt
-## Running the Project
-Once you have the required packages installed, you can run the project using the following command:
-> python sentiment_analysis.py
-## Results
-The Naive Bayes algorithm achieved an accuracy of 82.8% on the test data. This indicates that the algorithm is capable of accurately classifying movie reviews based on their sentiment. Further improvement can be made by using more advanced machine learning algorithms or by increasing the size of the training data.
+## Usage
+To use this application, simply clone the repository and run the following command in the terminal:
+
+> streamlit run app.py
+
+This will launch the web application in your default browser, and you can input a Twitter hashtag to perform sentiment analysis on. The results of the analysis will be displayed in the form of a pie chart, with the percentage of tweets classified as positive, negative, and neutral.
 
 ## Conclusion
-This project demonstrates the use of Naive Bayes for sentiment analysis. The algorithm was able to achieve a decent accuracy of 82.8% on the test data. The project serves as a starting point for further exploration and improvement in the field of sentiment analysis.
+In conclusion, this Sentiment Analysis of Twitter Data project demonstrates the capability of the Naive Bayes algorithm in performing sentiment analysis on a large dataset. This application can be used to determine the overall sentiment of a particular topic or hashtag on Twitter and can provide valuable insights into public opinion on a particular subject.
