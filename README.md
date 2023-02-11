@@ -7,6 +7,17 @@ The data used in this project is a Twitter dataset that consists of tweets along
 ## Methodology
 The Naive Bayes algorithm was used for sentiment analysis. This algorithm is a probabilistic algorithm that makes classifications based on Bayes' theorem. The algorithm was trained on the Twitter dataset, and the model was then used to predict the sentiment of a given tweet.
 
+## Prerequisites
+You will need to have the following packages installed in order to run this project:
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- NLTK
+- Streamlit
+## Installing
+Use the following command to install all the required packages:
+> pip install -r requirements.tx
 ## Usage
 To use this application, simply clone the repository and run the following command in the terminal:
 
